@@ -1,0 +1,20 @@
+.lamp {
+    width: 100px;
+    height: 150px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 20px auto;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.lamp.on {
+    background-color: yellow;
+    box-shadow: 0 0 20px yellow;
+}
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
